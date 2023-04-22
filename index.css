@@ -145,6 +145,7 @@
 .content > div {
     display: flex;
     flex: 2; align-content: center; justify-content: center;
+    flex-wrap: wrap;
 }
 
 .form{
@@ -179,10 +180,12 @@
     flex-direction: column; 
     display:flex;
     color: white;
+    flex-wrap: wrap;
 }
 
 .form-output {
     margin: 12px;
+    flex-wrap: wrap;
 }
 
 .output-content {
@@ -193,6 +196,7 @@
     width: 400px;
     height: 250px;
     margin-bottom: 20px;
+    flex-wrap: wrap;
 }
 
 footer > p {
