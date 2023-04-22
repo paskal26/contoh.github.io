@@ -115,6 +115,7 @@
 .facilities {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     margin-left: 73px;
     color: white;
     gap: 50px;
@@ -126,6 +127,7 @@
     border-radius: 50%;
     width: 200px;
     height: 200px;
+    flex-wrap: wrap;
 }
 
 .line_spacing p{
