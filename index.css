@@ -178,6 +178,7 @@
     flex-direction: column; 
     display:flex;
     color: white;
+    flex-wrap: wrap;
 }
 
 .form-output {
